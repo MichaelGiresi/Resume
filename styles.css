@@ -1,0 +1,15 @@
+#main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+}
+
+#left-container {
+    background-color: green;
+    max-width: 260px;
+    
+}
+
+#right-container {
+    background-color: red;
+}
