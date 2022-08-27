@@ -5,16 +5,23 @@ html {
 
 #main-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 1600px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     margin: 0 auto 0 auto;
+
+
+    /* Not recognizing the media querry for some reason */
+    @media * (min-width:768px) {
+     flex-direction: row;   
+    }
 }
 
 #left-container {
-    max-width: 260px;
-    border-right: 1px solid black
-    
+    width: 425px;
+    border: 1px solid black;
+    margin: auto;
+
     
 }
 
