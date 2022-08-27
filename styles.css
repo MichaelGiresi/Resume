@@ -1,15 +1,45 @@
+html {
+    background-color: #c3c3c3;
+    font-family: "Lato";
+}
+
 #main-container {
     display: flex;
     flex-direction: row;
     max-width: 1600px;
+    border: 1px black solid;
+    margin: 0 auto 0 auto;
 }
 
 #left-container {
-    background-color: green;
     max-width: 260px;
+    border-right: 1px solid black
+    
     
 }
 
 #right-container {
     background-color: red;
+}
+
+#left-info {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 13px;
+}
+
+#skills {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+#books {
+    text-align: center;
+}
+
+#other-projects {
+    text-align: center;
 }
