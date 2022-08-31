@@ -13,16 +13,11 @@ html {
 }
 
 #left-container {
-    width: 98%;
-    max-width: 300px;
     border: 1px solid black;
-    margin: auto;
-
-    
 }
 
 #right-container {
-    border-top: 1px solid black;
+    border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -49,7 +44,27 @@ html {
     text-align: center;
 }
 
+#projects-title-info {
+    margin-left: 5px;
+}
+
+#algo-title-info {
+    margin-left: 5px;
+}
+
+#mbs-title-info {
+    margin-left: 5px;
+}
+
+#education-title-info {
+    margin-left: 5px;
+}
+
 @media (min-width:768px) {
     .main-container{
         flex-direction: row;}
+    #right-container {
+        border-left: none;
+        border-top: 1px solid black;
+    }
 }
