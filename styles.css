@@ -12,23 +12,14 @@ html {
 
 }
 
-#projects-title-info h1 {
-    text-align: center;
-}
+/* Top Container Styles */
 
-#left-container {
+#top-container {
     border: 1px solid black;
     line-height: 1;
 }
 
-#right-container {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    line-height: 1.6;
-}
-
-#left-info {
+#top-info {
     border-bottom: 1px solid black;
     text-align: center;
     font-size: 18px;
@@ -45,31 +36,23 @@ html {
     margin: 0 auto;
 }
 
-#masters-info {
-    border-bottom: 1px solid black;
-    padding-bottom: 21.28px;
-}
-
-#education-title-info h1 {
-    text-align: center;
-    font-size: 36px;
-}
-
-#projects-title-info h1 {
-    font-size: 36px;
-}
-
-
-
 #books {
     text-align: center;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     font-size: 18px;
-    
 }
 
-#other-projects {
-    text-align: center;
+#books h4 {
+    line-height: 1.5;
+}
+
+/* Bottom Container */
+
+#right-container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 1.6;
 }
 
 #projects-title-info {
@@ -78,17 +61,56 @@ html {
     border-bottom: 1px solid black;
 }
 
+#projects-title-info h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
 #algo-title-info {
     width: 98%;
     margin: 0 auto;
     border-bottom: 1px solid black;
 }
 
+#algo-title-info h3 {
+    margin-top: 15px;
+}
+
 #mbs-title-info {
-    width: 98%;
+    /* width: 98%; */
     margin: 0 auto;
     border-bottom: 1px solid black;
 }
+
+#mbs-title-info h3 {
+    width: 98%;
+    margin: 15px auto;
+    
+}
+
+#mbs-title-info p {
+    width: 98%;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#education-title-info h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#masters-info {
+    border-bottom: 1px solid black;
+    padding-bottom: 21.28px;
+}
+
+
+
+
+
+
 
 #education-title-info {
     width: 98%;
@@ -96,33 +118,75 @@ html {
 }
 
 @media (min-width: 450px) {
-    #left-container {
+    #top-container {
         display: flex;
         justify-content: space-around;
     }
 
-    #books h1 {
-        margin-top: 9px;
-
-    }
-
-    #left-info {
+    #top-info {
         border-bottom: 0px;
         border-right: 1px solid black;
-        width: 33vw;
+        width: 33%;
         font-size: 12px;
     }
 
     #skills {
         border-bottom: 0px;
         border-right: 1px solid black;
-        width: 33vw;
+        width: 33%;
     }
 
     #books {
-        width: 33vw;
+        width: 33%;
+    }
+
+    #books h4 {
+        font-size: 12px;
+        
+    }
+
+    #books h1 {
+        /* margin-top: 9px; */
+        font-size: 36px;
+
+    }
+
+    #skills h1 {
+        font-size: 36px;
+        /* margin-top: 9px; */
+    }
+
+    #skills h4 {
+        font-size: 12px;
+    }
+
+    #top-info h1 {
+        font-size: 36px;
+    }
+    
+    #top-info h4 {
+        font-size: 12px;
+    }
+
+
+@media (min-width: 550px) {
+    #top-info h4 {
         font-size: 14px;
     }
+
+    #books h4 {
+        font-size: 14px;
+    }
+
+    #skills h4 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
 }
 
 @media(min-width:581px) {
@@ -131,16 +195,22 @@ html {
     }
 }
 
-@media (min-width:700px) {
+@media (min-width:731px) {
+    #top-info h4 {
+        font-size: 16px;
+        /* line-height: 1.6; */
+    }
 
+    #books h4 {
+        font-size: 16px;
+        line-height: 1.28;
+    }
+
+    #skills h4 {
+        font-size: 16px;
+        /* line-height: 1.6; */
+    }
 
 }
 
-/* @media (min-width:768px) {
-    .main-container{
-        flex-direction: row;}
-    #right-container {
-        border-left: none;
-        border-top: 1px solid black;
-    }
-} */
+
